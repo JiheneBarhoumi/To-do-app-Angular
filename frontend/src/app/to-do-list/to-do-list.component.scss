@@ -1,0 +1,48 @@
+.main-container{
+  margin-top:10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-color: #a5d9d1;
+}
+
+h2{
+  text-align: center;
+  color: #57beae;
+}
+
+input {
+  width: 93%;
+  line-height: 40px;
+  outline: none !important;
+  margin-right: 10px;
+}
+
+.btn-add{
+  border: #57beae 1px solid;
+  background:#57beae;
+  color: white;
+  font-weight: bold;
+  line-height: 40px;
+
+}
+
+.btn-b{
+  border: none;
+  outline: none;
+  background:none;
+  width: fit-content;
+}
+
+.task-container{
+  margin-top: 3%;
+  height: 55px;
+}
+.task-container #title{
+  padding-left: 15px;
+  font-weight: bold;
+  color: #8c8a8a;
+}
+
+
+
+

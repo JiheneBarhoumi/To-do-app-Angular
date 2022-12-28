@@ -1,0 +1,25 @@
+
+<div class="card main-container">
+  <div class="card-header">
+    <h2>To Do List</h2>
+  </div>
+  <div class="card-body">
+    <input type="text" [(ngModel)]="task.title">
+    <button class="btn-add" (click)="add()">ADD</button>
+    <hr/>
+    <tr class="task-container" *ngFor="let myTask of tasks">
+      <td id="title" style="width: 89%">{{myTask.title}}</td>
+      <td>
+        <button type="button" class="btn-b" style="margin-right: 10px" title="edit" (click)="update(myTask)">
+          <img src="assets/edit.png" style="width: 30px;height: 30px"/>
+        </button>
+        <button class="btn-b" title="delete" (click)="delete(myTask.id)">
+          <img src="assets/delete.png" style="width: 30px;height: 30px"/>
+        </button>
+      </td>
+    </tr>
+
+  </div>
+</div>
+
+
